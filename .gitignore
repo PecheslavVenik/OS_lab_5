@@ -1,0 +1,42 @@
+# Build artifacts
+build/
+*.o
+*.exe
+*.out
+*.app
+
+# Database files
+*.db
+*.db-journal
+
+# SQLite3 downloaded sources (can be regenerated)
+lib/sqlite3/
+
+# Simulator data
+virtual_port.txt
+
+# Python
+__pycache__/
+*.py[cod]
+*$py.class
+*.so
+.Python
+venv/
+env/
+ENV/
+*.egg-info/
+dist/
+
+# IDE
+.vscode/
+.idea/
+*.swp
+*.swo
+*~
+.DS_Store
+
+# Temporary files
+*.log
+*.tmp
+sqlite.zip
+sqlite_tmp/
